@@ -21,5 +21,5 @@ int main ()
     }
     pi = step * sum;
     rt = omp_get_wtime() - st;
-    printf("pi is %f in %f seconds\n", pi, rt);
+    printf("pi=%f,time=%f\n", pi, rt);
 }
